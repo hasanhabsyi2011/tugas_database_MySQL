@@ -254,7 +254,7 @@ SELECT*FROM tbl_jabatan;
 
 
 CREATE TABLE tbl_status(
-id_status INT PRIMARY KEY AUTO_INCREMENT,
+id_status INT(2) PRIMARY KEY,
 nama_status VARCHAR(30),
 keterangan VARCHAR(100)
 );
